@@ -1,0 +1,7 @@
+{
+  "name": "ASAI | AI Receptionist & Lead-Capture Automation",
+  "stack": "TypeScript, Node.js, Express, Vapi-style webhook integration, Nodemailer, automation platforms and APIs",
+  "project_status": "Project metadata documents an after-hours lead-capture demo, webhook, lead store, email notifier, and test scripts. This showcase does not reproduce the company\u2019s production deployment or client records.",
+  "no_production_code_included": true,
+  "not_deployed": true
+}
