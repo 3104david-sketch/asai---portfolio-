@@ -1,7 +1,30 @@
 {
-  "name": "ASAI | AI Receptionist & Lead-Capture Automation",
-  "stack": "TypeScript, Node.js, Express, Vapi-style webhook integration, Nodemailer, automation platforms and APIs",
-  "project_status": "Project metadata documents an after-hours lead-capture demo, webhook, lead store, email notifier, and test scripts. This showcase does not reproduce the company\u2019s production deployment or client records.",
-  "no_production_code_included": true,
-  "not_deployed": true
+  "project": "ASAI",
+  "portfolio_title": "AI Receptionist & After-Hours Lead Capture",
+  "category": "conversational AI lead-capture workflow",
+  "summary": "An AI-powered after-hours call-handling and lead-capture workflow designed for service businesses, combining conversational intake, webhooks, and notifications.",
+  "technologies": [
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "Vapi voice agent integration",
+    "Nodemailer",
+    "Webhooks",
+    "Automation integrations"
+  ],
+  "private_source_repository": true,
+  "showcase_type": "documentation-only",
+  "public_source_code_included": false,
+  "live_demo_included": false,
+  "screenshots_included": false,
+  "original_git_history_included": false,
+  "status": "The private source includes demo infrastructure for voice-agent webhook intake, lead storage, email notifications, and tests. This showcase does not document or independently verify current client deployments.",
+  "limitations": [
+    "No real recordings or customer records made public",
+    "No production endpoint, secrets or live credentials included",
+    "Client acquisition and time-saving figures are not independently validated here"
+  ],
+  "owner": "Benjamin Jackson",
+  "development_approach": "AI-assisted coding and iterative product development",
+  "metrics_independently_verified_in_showcase": false
 }
