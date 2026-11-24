@@ -1,38 +1,41 @@
-# ASAI | AI Receptionist & Lead-Capture Automation
+# ASAI | AI Receptionist & After-Hours Lead Capture
 
-## Overview
-An AI-powered after-hours voice and lead-capture workflow for service businesses, designed to collect caller details and notify a human operator for follow-up.
+> **Portfolio case study · Documentation-only · Original source remains private**
 
-## Features
-- Conversational voice-agent flow for after-hours callers
-- Webhook intake and structured lead capture
-- Email notifications and human escalation
-- Lead lifecycle and operational checks
-- Demo payloads and test-friendly workflows
+An AI-powered after-hours call-handling and lead-capture workflow designed for service businesses, combining conversational intake, webhooks, and notifications.
 
-## Technical stack
-TypeScript, Node.js, Express, Vapi-style webhook integration, Nodemailer, automation platforms and APIs
+## The problem
+Service businesses can miss inquiries outside office hours and may lack a consistent way to capture the information needed for follow-up.
 
-## Architecture
-- Incoming call → conversational AI voice flow
-- Voice provider event → validated webhook/lead intake
-- Captured lead → notification → human follow-up
+## My contribution
+Product concept, workflow design, business use case, and iterative AI-assisted application development. I used AI coding assistance alongside practical testing and product decisions; I do not claim to have manually written every line of the private implementation.
 
-## Relevance to AI marketing and operations
-Illustrates AI-assisted lead capture, response operations, and reducing missed inquiries outside business hours. Client count and time savings are resume-reported outcomes, not independently audited in this repository.
+## How it works
+1. Caller reaches an after-hours conversational voice agent.
+2. The agent collects necessary request and contact details.
+3. A webhook transfers the structured intake event to a lead-capture service.
+4. The service records the request and sends a notification for human follow-up.
+
+## Architecture and technical approach
+Voice provider events enter a Node.js/Express webhook intake service. The application supports structured lead storage and email notifications; the human team remains responsible for follow-up.
+
+**Technologies:** TypeScript · Node.js · Express · Vapi voice agent integration · Nodemailer · Webhooks · Automation integrations.
+
+## Why it matters to AI marketing
+Designed to reduce missed after-hours inquiries and standardize lead intake. Reported client results require separate verification.
 
 ## Project status and limitations
-Project metadata documents an after-hours lead-capture demo, webhook, lead store, email notifier, and test scripts. This showcase does not reproduce the company’s production deployment or client records.
+**Status:** The private source includes demo infrastructure for voice-agent webhook intake, lead storage, email notifications, and tests. This showcase does not document or independently verify current client deployments.
 
-## Public demo and privacy
-A synthetic lead event and a mock notification; no real customer details, phone numbers, tokens, or proprietary client configurations.
+- No real recordings or customer records made public.
+- No production endpoint, secrets or live credentials included.
+- Client acquisition and time-saving figures are not independently validated here.
 
-This is a **new, documentation-only public portfolio showcase** based on a review of selected repository documentation and metadata. It does **not** include or publish the original private source repository, code, customer data, credentials, commit history, or deployable system. Screenshots and video demonstrations may be added only after confirming they contain synthetic or redacted information.
+## Explore the project without screenshots
+Read [WORKFLOW.md](WORKFLOW.md) for a step-by-step, text-only case study and [PROJECT_FACTS.json](PROJECT_FACTS.json) for structured project metadata. No screenshots, recordings, customer data, or deployable application code are included in this portfolio repository.
 
-## Authorship and AI-assisted development
-Product direction and project ownership: Benjamin Jackson. Development involved AI-assisted coding tools and iterative testing. Do not interpret this showcase as a claim that every line of implementation was personally hand-written.
+## Privacy and scope
+This showcase was written independently from the original private repository. It shares high-level architecture and documented functionality only. It does **not** contain original production source, API keys, customer lists, call transcripts, internal pricing, environment files, or original Git history. See [SECURITY.md](SECURITY.md).
 
-## Next steps
-- Record a short walkthrough with only fictional/test data.
-- Add screenshots in `assets/` after visually checking for confidential information.
-- Add a verified results section with the measurement period and baseline, where available.
+## Contact and project ownership
+**Benjamin Jackson** — [GitHub profile](https://github.com/3104david-sketch) · AI marketing automation, applied AI systems, and growth operations.
